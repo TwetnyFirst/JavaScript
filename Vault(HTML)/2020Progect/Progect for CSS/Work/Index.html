@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Progect for CSS</title>
+		<link rel="stylesheet" href="CSS/Style.css">
+
+	</head>
+	<body>
+		<h1>Hello, this is page for CSS</h1>
+	<div>
+		CSS можно подключить к HTML файлу с помощью команды <strong>"link"</strong>
+	</div>
+	<br>
+	<div>
+		В CSS можно обращаться к:
+		<ul class="class">
+			<li>Тегам</li>
+			<li class="class">Классам</li>
+			<li>Опред.Тегам с опред.Классом</li>
+
+		</ul>
+	</div>
+	<br>
+	<div class="width">
+		Свойсво <strong>"width"</strong> - регулирует ширину блока(например в этом блоке стоит ширина 200px).Это значение может быть в:
+		<ul>
+			<li>px</li>
+			<li>%</li>
+			<li>через <strong>"calc"</strong></li>
+		</ul>
+	</div>
+	<br>
+	<div class="height">
+		Свойство <strong>"height"</strong> - регулирует высоту блока </div>
+
+	<div>
+		Свойство <strong>"backround"</strong> - определяет то,как быдет выглядить задний план начего блока,его можно задать с помощью:
+		<ul>
+			<li>Цвета - пишем <strong>backround-color</strong> и после него пишем "#" и цифры </li>
+			<li>Вставить изображение - пишем<strong>backround-image</strong>далее "url" и ссылку</li>
+			<li>Чтобы подогнать,например, размер картинки под размер блока - пишем<strong>"backround-size"</strong> и далее применяем значение <strong>"cover"</strong></li>
+				<img class="back" src="img/s1200.png">
+			<li><strong>"backround-position"</strong> - определяет то,на сколько нужно отступить в САМОЙ фотографии по X и пo Y </li>
+			<li><strong>"backround-repeat"</strong> - нужен, чтобы после оступа с помощью<strong>"backround-position"</strong>  фото не повторялась, этого можно достигнуть с помощью значения<strong>"no-repeat"</strong> </li>
+			<li><strong>"backround-attachment"</strong> - фиксирует картику(или то что мы задали) на фоне благодаря значению<strong>"fixed"</strong> </li>
+		</ul>
+	</div>
+
+	<div class="border">
+		Свойство<strong>"border"</strong>  - создает границы нашему блоку и пишется по примеру: border:(толщину границ в px) (стиль границ) (цвет)
+		<p>Есть несколько основных стилей:</p>
+		<ul>
+			<li>solid</li>
+			<li>dashed</li>
+			<li>dotted</li>
+		</ul>
+		Одно из самых полезых подсвойств является <strong>"border-radius",в значение которого если записать 50%, то получится круг	</strong>
+	</div>
+	<div>
+		Подствойство <strong>"rgba"</strong> - можно задать цвет,первыми тремя значениями, и прозрачность четвертым 
+	</div>
+	<div class="boxshadow">
+		Свойство <strong>"boxshadow"</strong> - добавляет тень нашему блоку.Первое значение это смещение тени по X,второе на Y,третье это размытие нашей тени и четвертое значение это радиус тени.
+	</div>
+	<div>
+		Свойство <strong>"font-size"</strong> - определяет величину текста на странице.Его можно задать в:
+		<ul>
+			<li>px  -стандартный размер 16px</li>
+			<li>em - это относительная величина от пикселя и относится она к родительскому блоку,а чтобы она относилась к изначатьно заданной величине(16px) нужно дописать <strong>"r"</strong>(rem) </li>
+		</ul>
+	</div>
+	<div>
+		<p class="font-weight">Свойтво <strong>"font-weight"</strong> - определяет толщину (жирность) текста, со значением bold</p>
+		<p class="font-style">Свойство <strong>"font-style"</strong> - определяет курсивноть, со значением italic</p>
+		<p class="text_1">Свойство <strong>"text-transform"</strong> - может сделать все буквы заглавными</p>
+		<p class="text_2">Свойсто <strong>"text-decoration"</strong> - может подчеркнуть, зачеркнуть... текст</p>
+	</div>
+	<hr>
+	<h3>Шрифты(не изучено!!!)</h3>
+	<div>
+		Чтобы подключить шрифты, для начала их нужно скачать(обычно у них расширение ttf). <br>
+		Далее чтобы подключить нужно прописать: <br>
+		<strong>@font-face{ <br>
+		font-family:(название шрифта); <br>
+		src: local("(название шрифта"); <br>
+		url(путь до шрифта);<br>
+	}</strong> <br>
+		Вот мы рассказали CSS, что есть такой шрифт и теперб его надо подключить к нашей странице: с помощью свойства <strong>"font-famity"</strong> и в значении указываем локальное название шрифта 
+	</div>
+	<hr>
+	<div>
+		Tекст изначально выравнивается по левому краю.Свойство CSS<strong>"text-align"</strong> - 
+		меняет это в зависимости от значения:
+		<ul>
+			<li class="center"><strong>"center"</strong></li>
+			<li><strong>"left"</strong> - по умолчанию</li>
+			<li><strong>"justufy"</strong> по ширине блока</li>
+			<li><strong>"right"</strong></li>
+			<li><strong>"inherit"</strong> - пропустить свойство</li>
+		</ul>
+	</div>
+	<div class="line-height">
+		Свойстово <strong>"line-height"</strong> - определяет межстрочное расстояние<strong>!!! если значение"line-height" = значению ширины"div"</strong> 
+	</div>
+	<hr>
+	<div class="margin_1">
+		Свойтво <strong>"margin"</strong> - задает отступы по осям X и Y, на зананное значение.<br>
+		Также сужествуют приставки:
+		<div><ol class="margin_2">
+					<li>"-top"</li>
+					<li>"-left"</li>
+					<li>"-right"</li>
+					<li>"-bottom"</li>
+				</ol></div>
+		Либо тоже самое можно задать четырьмя значениями.
+	</div>
+	<div>
+		Свойтво <strong>"padding"</strong> - задаёт внутренние отступы и имеет приставки:
+		<ol>
+			<li>"-top"</li>
+			<li>"-left"</li>
+			<li>"-right"</li>
+			<li>"-bottom"</li>
+		</ol>
+	</div>
+	<div class="padding"></div>
+	<div>
+		Свойство <strong>"float"</strong>  -может распологать блоки с лева на право  
+	</div>
+	<div>
+		Свойство <strong>"overflow"</strong> Со значением:
+		<ul>
+			<li><strong>"hidden"</strong> - может спятать наш скролл</li>
+			<li><strong>"auto"</strong> - модет добавить скролл даже в бокс</li>
+		</ul>
+	</div>
+	<div class="overflow">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, cupiditate, suscipit! Excepturi quia distinctio blanditiis fugit minus! Sed nam, earum, iusto quia saepe, corporis voluptatem eius eligendi quas libero assumenda! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam placeat sequi natus, beatae deleniti laborum modi facere sapiente excepturi repellendus impedit temporibus, veritatis minus earum at dolorem. Recusandae, necessitatibus, tempora?
+	</div>
+	<hr>
+	<div>
+		Изначально если у блока есть родительский блок, то "детский" блок будет перемещатся относительно ему.<br>
+		Свойство CSS - <strong>"position"</strong> со значением :
+		<ul>
+			<li><strong>"absolute"</strong> - может сделать наш блок, относительным body.<br>После того как мы задали свойство absolute, начинают действовать свойства left, top ,right, bottom. </li>
+			<li><strong>"relative"</strong> - становится родительским для блока со свойством - position:absolute</li>
+			<li><strong>"fixed"</strong> - закрепляет наш блок в указанной нами точке и скрол на него влиять не будет </li>
+		</ul> 
+	</div>
+
+	<div>
+		Свойство <strong>"cursor"</strong> - меняет курсов соответственно значениям, например: <strong>pointer</strong>
+	</div><hr>
+	<h3>Псевдоклассы</h3>
+	<div>
+		<strong>Псевдоклассы</strong> - определяет изменения нашего блока, после некоторых манипуляций над ним и пишется после названия класса через <strong>":"</strong><br>
+		Псевдоклассов бывает <strong>много</strong>, но вот некоторые из них для Тега <strong>"div"</strong>:
+		<ol>
+			<li><strong>"hover"</strong> - изменяет наш блок после навода на него курсора</li>
+			<li><strong>"active"</strong> - изменяет наш блок после нажания на него </li>
+			<li><strong>"nth-child"</strong> - позволяет изменить определённый блок , номер которого мы указали в скобках.Если в скобках мы укажем например <strong>"2n"</strong> или <strong>"2n+1"</strong>, то будут изменятся каждый четный и нечетный блок соответственно</li>
+			<li><strong>"before"</strong> - тот контент, который мы указали в <strong>before</strong> появится перед содержимым блока</li>
+			<ul>
+				<li>Чтобы создать контент нужно воспользоваться значением <strong>"content"</strong> и в нео вписать какое-то значение</li>
+				<li>Либо можно воспользоваться значением <strong>"display:block"</strong> и вставить некоторый блок </li>
+			</ul>
+			<li><strong>"after"</strong> - тоже что и before, только после содержимого</li>
+		</ol>
+		Некоторые из псевдоклассов для <strong>"input"</strong>:
+		<ul>
+			<li><strong>"focus"</strong> - если добавить backround, то при активиции инпута этот backround будет виден</li>
+		</ul>
+	</div>
+	<input type="text" class="input">
+	<div class="pclass"></div>
+	<div>
+		Значение <strong>"none"</strong> - сбрасывает предыдущие значения свойств
+		Значение<strong>"inherit"</strong>.если записать это значение в свойство, то оно примет значение из родительского блока(если такой имеется). 
+	</div>
+	<div>
+		Чтобы задать приоритет свойству нужно использовать<strong>"!important"</strong> после значения свойства.
+		
+	</div>
+	</body>
+</html>

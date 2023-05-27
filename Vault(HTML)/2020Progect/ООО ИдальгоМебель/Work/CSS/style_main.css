@@ -1,0 +1,673 @@
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+html{
+	overflow: hidden;
+}
+
+div{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+div.menu{
+	height: 120px;
+	overflow: hidden;
+}
+div.logo_menu{
+	float: left;
+	height: 90px;
+	width: 99px;
+	background: url(../IMG/image_logo.png);
+	margin-top: 25px;
+	margin-left: 100px;
+	background-size: cover;
+}
+div.name_menu{
+	font-size: 25px;
+	margin-left:10%;
+	margin-top: 35px;
+}
+div.slogan_menu{
+	font-size: 17px;
+	margin-top:5px ;
+	margin-left:10%;
+
+}
+
+
+
+
+
+
+div.navigation{
+	float: right;
+	width: 550px;
+	height: 100px;
+}
+div.punkt{
+	float: left;
+	margin:50px 10px;
+	font-size: 18px;	
+}
+
+
+
+
+
+
+
+div.welcome{
+	overflow: hidden;
+  	object-fit: cover;
+	height: 800px;
+	background-image: url(../IMG/interior-3012218_1920.png);
+	background-attachment: fixed
+} 
+div.text_main{
+	text-align: center;
+	margin-top: 350px;
+	font-size: 60px;
+	color: white;
+
+}
+div.text_under_main{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+div.about_us{
+	overflow: hidden;
+	height: 850px;
+}
+div.text{
+	height: 850px;
+	width: 50%;
+	float: right;
+}
+div.big_text{
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 400px;
+	height: 100px;
+	color: black;
+	font-size: 40px;
+}
+div.small_text{
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 400px;
+	height: 300px;
+	font-size: 21px;
+	font-family:oblique;
+
+}
+
+
+
+
+div.image_bed{
+	float: left;
+	width: 50%;
+	height: 850px;
+	background-image: url(../IMG/bed-1839184_1920.jpg);
+	max-width: 1000px;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+div.text_uslugi{
+	overflow: hidden;
+	height: 200px;
+}
+div.text_uslugi_big{
+	font-size: 40px;
+	margin-top:50px ;
+	text-align: center;
+}
+div.text_uslugi_small{
+	font-size: 20px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*div.uslugi{
+	margin: 0px auto;
+	width: 1500px;
+	overflow: hidden;
+	height: 600px;
+}
+div.usluga_1{
+	float: left;
+	height: 500px;
+	width: 33%;
+}
+div.image_usluga_1{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/plans-1867745_1920.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_1{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_1{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+div.usluga_2{
+	float: left;
+	height: 500px;
+	width: 33%;
+}
+div.image_usluga_2{
+	width:200px ;
+	height:200px ;
+	background:url(../IMG/1.psd) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_2{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_2{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+div.usluga_3{
+	float: left;
+	height: 500px;
+	width: 33%;
+}
+div.image_usluga_3{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/1414668005.jpg);
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_3{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_3{
+	font-size: 20px;
+	margin:140px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}*/
+
+
+
+
+
+
+div.ulsugi{
+	height:500px;
+	width: 93%;
+	margin: 50px auto; 
+}
+div.uslugi_text{
+	float: left;
+	width: 50%;
+	height:500px;
+	background-color:#E6E6E6;
+}
+
+
+
+div.usluga_word{
+	text-align: center;
+	font-size: 35px;
+	margin: 20px 0px;
+}
+div.usluga_small_word{
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.uslugi_photo{
+	float: left;
+	width: 50%;
+	height: 500px;
+	background:url(../IMG/living-room-690174_1920.jpg);
+	background-size: cover;
+}
+
+div.usluga{
+	font-size: 25px;
+	margin:30px 150px;
+}
+
+
+
+div.icons{
+	position: absolute;
+}
+div.human{
+	margin-top: 32px;
+	margin-left: 125px;
+	font-size: 20px;
+
+}
+div.cube{
+	margin-top: 35px;
+	margin-left: 125px;
+	font-size: 20px;
+
+}
+div.phone{
+	margin-top: 40px;
+	margin-left: 125px;
+	font-size: 20px;
+
+}
+
+div.truck{
+	margin-top: 35px;
+	margin-left: 125px;
+	font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.text_portfolio{
+	overflow: hidden;
+	height: 200px;
+
+}
+div.text_portfolio_big{
+	font-size: 40px;
+	margin-top:50px ;
+	text-align: center;
+}
+div.text_portfolio_small{
+	font-size: 20px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.primer_portfolio{
+	margin: 0px auto;
+	width:93%;
+	height: 1100px;
+	overflow: hidden;
+	
+}
+div.portfolio_1{
+	float: left;
+	height: 550px;
+	width: 33%;
+	background-color:#E6E6E6;
+}
+div.image_portfolio_1{
+	margin:50px auto;
+	width: 80%;
+	height: 300px;
+	background: url(../IMG/kitchen-1640439_1920.jpg);
+	background-size: cover;
+
+}
+div.text_portfolio_1{
+	width: 300px;
+	font-size:32px;
+	margin: 20px auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.price_portfolio_1{
+	font-size: 22px;
+	margin:0px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+div.portfolio_2{
+	float: left;
+	height: 550px;
+	width: 33%;
+	background-color:#E6E6E6;
+
+}
+div.image_portfolio_2{
+	margin:50px auto;
+	width: 80%;
+	height: 300px;
+	background:url(../IMG/dressing-room-1137941.jpg);
+	background-size: cover;
+}
+div.text_portfolio_2{
+	width: 300px;
+	font-size:32px;
+	margin: 20px auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.price_portfolio_2{
+	font-size: 22px;
+	margin:0px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.portfolio_3{
+	float: left;
+	height: 550px;
+	width: 33%;
+	background-color:#E6E6E6;
+
+}
+
+div.image_portfolio_3{
+	margin:50px auto;
+	width: 80%;
+	height: 300px;
+	background: url(../IMG/baby-boy-3368016_1920.jpg);
+	background-size: cover;
+}
+div.text_portfolio_3{
+	width: 300px;
+	font-size:32px;
+	margin: 20px auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.price_portfolio_3{
+	font-size: 22px;
+	margin:0px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+
+
+div.portfolio_1_2{
+	float: left;
+	height: 600px;
+	width: 33%;
+	background-color:#E6E6E6;
+
+}
+div.image_portfolio_1_2{
+	margin:50px auto;
+	width: 80%;
+	height: 300px;
+	background: url(../IMG/seminar-594118_1920.jpg);
+	background-size: cover;
+}
+div.text_portfolio_1_2{
+	width: 300px;
+	font-size:32px;
+	margin: 20px auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.price_portfolio_1_2{
+	font-size: 22px;
+	margin:0px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+
+
+
+div.portfolio_2_2{
+	float: left;
+	height: 600px;
+	width: 33%;
+	background-color:#E6E6E6;
+
+}
+div.image_portfolio_2_2{
+	margin:50px auto;
+	width: 80%;
+	height: 300px;
+	background:url(../IMG/interior-komod791708_1920.jpg);
+	background-size: cover;
+
+}
+div.text_portfolio_2_2{
+	width: 300px;
+	font-size:32px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+div.price_portfolio_2_2{
+	font-size: 22px;
+	margin:0px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.portfolio_3_2{
+	float: left;
+	height: 700px;
+	width: 33%;
+	color: white;
+	background-color: #E6E6E6;
+}
+
+div.image_portfolio_3_2{
+	margin:50px auto;
+	width: 80%;
+	height: 300px;
+	background: url(../IMG/room-1334323.jpg);
+	background-size: cover;
+}
+div.text_portfolio_3_2{
+	width: 300px;
+	font-size:32px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+div.price_portfolio_3_2{
+	font-size: 22px;
+	margin:0px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.contacts{
+	background: url(../IMG/Footer.png);
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 130px;
+	height: 450px;
+	overflow: hidden;
+}
+
+
+div.word_contact{
+	font-size: 35px;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom:50px;
+	margin-left: 70px;
+	color: white;
+}
+
+div.hour{
+	text-align: left;
+	margin:20px 70px;
+	line-height: 1.5;
+	color: white;
+}
+
+div.adres_contact{
+	text-align: left;
+		margin:30px 70px;
+	color: white;
+}
+div.gmail_contact{
+	text-align: left;
+		margin:20px 70px;
+	color: white;
+}
+div.phone_contact{
+	text-align: left;
+		margin:10px 70px;
+	line-height: 1.5;
+	color: white;
+}
+div.foot_logo{
+	float: right;
+	width: 330px;
+	height: 300px;
+	background: url(../IMG/image_logo2.png);
+	background-size: cover;
+	margin: -70px 70px;
+
+}
+
+
+div.poloska{
+
+	width: 93%;
+	height: 40px;
+	background-color: black;
+	margin: 0px auto;
+	margin-top: 400px;
+}

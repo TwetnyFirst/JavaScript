@@ -1,0 +1,191 @@
+body{
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+.head{
+	width: 100%;
+	height: 70px;
+	background: #000000;
+	position: relative;
+}
+.content{
+	position: absolute;
+	margin-left: calc(50% - 550px);
+	width: 1100px;
+}
+.logo_menu{
+	width:85px;
+	height: 70px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 50px;
+
+}
+span{
+	color: #ff9b51;
+}
+.menu ul {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu ul li{
+	float:right;
+	display: block;
+	margin-right: 20px;
+	height: 70px;
+	width: 70px;
+	position: relative;
+}
+a{
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+.main{
+	background: #777;
+	height: 640px;
+}
+.left_menu{
+	float: left;
+
+}
+.logo_main{
+	font-size: 100px;
+	margin-top:100px;
+	color: #fff; 
+
+
+}
+.big_text{
+	margin-top: 30px;
+	width: 450px;
+	font-size: 30px;
+	color: #fff;
+
+
+}
+.line_in_menu{
+	margin-top: 30px;
+	margin-left: 10px;
+	background: #fff;
+	width: 65px;
+	height: 2px;
+
+}
+.small_text{
+	width: 450px;
+	height: 60px;
+	margin-top: 40px;
+	font-size: 20px;
+	color: #fff;
+
+
+}
+.bottom{
+	margin-top: 45px;
+	width: 150px;
+	height: 50px;
+	background: #777;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	border: solid;
+	line-height: 50px;
+
+}
+
+
+.input{
+	margin-top: 120px;
+	height:300px;
+	width: 350px;
+	background-color: #fff;
+	float: right;
+}
+.input_text{
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 23px;
+	font-weight: bold;
+}
+input.one{
+	margin-left: 40px;
+	margin-top: 30px;
+	border: none;
+	border-bottom: 1px solid #999;
+	width: 250px;
+	height: 30px;
+
+
+}
+	
+.input_bottom{
+	width: 350px;
+	height: 50px;
+	background-color: #ff9b51;
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	margin-top: 60px;
+	position: relative;
+
+}
+button{
+	border:none;
+	padding:0px;
+	background: #ff9b51;
+	height: 47px;
+	color: #fff;
+}
+
+
+border:none;
+
+
+
+
+
+.foot{
+	background: #e0e0e0;
+	height: 100px;
+}
+.text_foot{
+	width:335px;
+	height: 70px ;
+	margin-top: 15px ;
+	float: left;
+
+}
+.icons_foot ul {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+.icons_foot ul li{
+	margin-top:15px; 
+	display: block;
+	width: 80px;
+	height:70px;
+	margin-right: 15px;
+	float: right;
+	color: #999;
+	font-size: 60px;
+}
+b{
+	font-size: 20px;
+}

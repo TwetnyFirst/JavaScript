@@ -1,0 +1,104 @@
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+html{
+	overflow: hidden;
+}
+
+div{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+div.menu{
+	height: 120px;
+	overflow: hidden;
+}
+div.logo_menu{
+	float: left;
+	height: 70px;
+	width: 70px;
+	background: url(../IMG/1baa5308e4f084fb51f6e0bba671b52e.jpg);
+	margin-top: 25px;
+	margin-left: 100px;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.name_menu{
+	font-size: 22px;
+	margin-left:10%;
+	margin-top: 35px;
+}
+div.slogan_menu{
+	margin-top:5px ;
+	margin-left:10%;
+
+}
+
+div.navigation{
+	float: right;
+	width: 500px;
+	height: 100px;
+}
+div.punkt{
+	float: left;
+	margin:50px 10px;
+	font-size: 18px;	
+}
+
+
+
+
+
+
+
+
+
+div.contacts{
+	text-align: center; 
+	margin: 60px;
+}
+
+
+div.adres{
+	font-size: 32px;
+}
+
+div.Operating_mode{
+	margin:50px;
+	font-size: 22px;
+	line-height: 1.5;
+}
+div.phones{
+	font-size: 20px;
+	line-height: 1.5;
+}
+l{
+	color: #0000ff;
+}
+
+
+
+
+
+div.mail{
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+
+div.text{
+	font-size: 20px;
+	width: 700px;
+	margin:50px auto;
+}
+
+
+
+
+
+
+
+

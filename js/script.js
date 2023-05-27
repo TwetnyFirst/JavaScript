@@ -1,14 +1,13 @@
-const lines = 5;
-let result = '';
+const str = "hello";
 
-for (let i = 0; i <= lines; i++) {
-    for (let j = 0; j < lines - i; j++) {
-        result += " ";
+function isItInStr(x,y){
+    
+    if(x.indexOf(y.toLowerCase()) == -1){
+        console.log('net');
+        return false
+    }else{
+        console.log('da');
     }
-    for (let j = 0; j < 2 * i + 1; j++) {
-        result += "*";
-    }
-    result += "\n";
+
 }
-
-console.log(result)
+isItInStr(str,"heL");

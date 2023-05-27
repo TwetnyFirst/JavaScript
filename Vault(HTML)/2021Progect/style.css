@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-size: 20px;
+	background-image: url('https://cf2.ppt-online.org/files2/slide/y/ySvoU7NX6hFPZ9dnCQYbwJM8A4IEjm53aRtgcx/slide-6.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+div.one{
+	font-family: 'Rampart One', cursive;
+	height: 2000px;
+}

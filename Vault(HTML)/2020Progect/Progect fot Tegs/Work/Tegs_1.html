@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Tegs</title>
+		<link rel="stylesheet" href="CSS/CSS for tegs.css">
+
+	</head>
+	<body>
+		<h1>Hello,im Sasha and this is Tegs of HTML</h1>
+		<div>
+			<p>
+				<p>Тег <strong>"p"</strong> -  служит для параграфа(срока начинается с новой строки)</p>
+				<p>Tег <strong>"div"</strong> служит как опора для сайта,это блочный тег</p>
+
+				<p>Тег<strong> "header"</strong> - для верха страницы </p>
+
+				<p>Тег<strong> "nav"</strong> - для навигации</p>
+
+				<p>Tег<strong> "span"</strong> - строчный,служит для написания текста в скроку, и ЕГО МОЖНО поместить в блочный тег, А БЛОЧНЫЙ в СТРОЧНЫЙ нельзя </p>
+
+				<p>Tег <strong> "a"</strong>,строчный, предназначен для создания ссылок.Для тега "a" есть атрибут "target", он служит для того чтобы ссылка открывалась в новом окне </p>
+
+				<a href="https://chrome.google.com/">A without teg - target(google) </a><br><br>
+				<a href="https://yandex.by/" target="https://yandex.by/"> A with teg - target(yandex)</a>
+
+				<p>Tег <strong> "img"</strong>, для фотографий, атрибут "src" - для пути фотографии, атрибут "alt" - текст в этом атрибуте будет выведен , если фото не загрузится.</p>
+
+				<p> <img src="IMG/giza-egypt-pyramids-monuments-crop.jpeg" alt=""></p>
+
+				<p>Тег <strong> "br"</strong> предназначен для перекидывания текста, стоящего после тега, на следующюю строку</p>
+				<ol>
+					<p>Есть два вида таблиц:</p>
+					<li>Тег <strong> "ul"</strong> - маркерованные таблицы</li>
+					<li>тег <strong>"ol"</strong> - нумерованные таблицы</li>
+					<li>каждый из тегов таблиц <strong>должен</strong> быть заключен в тег <strong>"li"</strong></li>
+				</ol>
+
+				Тег <strong>"footer"</strong> - для низа 
+			</p>
+						<p>теги h1-h6 пишут жирным текстом по убыванию соответсвенно</p>
+			<h1>пример текста h1</h1><hr>
+			
+		</div>
+		<div>
+			Тег <strong>"form"</strong> - блочный тег, выступает в роли оболочки. 
+			<ul>
+				<li>Атрибут <strong>"action"</strong> определяет куда будут отправлены данные, значение атрибута может быть адресс ссервера, но можно и поставить #.</li>
+				<li>Атрибут <strong>"enctype"</strong> нужет для передачи прикрепленных файлов,со значением <strong> "multipart/form-data"</strong></li>
+				<li>Атрибут <strong>"method"</strong> - определяет метод передачи данных и имеет два значения:</li>
+				<ol>
+					<li>Значение get - по умолчанию, и передача данных идет в адресной строке </li>
+					<li>Значение post - передаёт данные через запрос браузера, лечше подходит</li>
+				</ol>
+			</ul>
+
+		</div>
+	<div>
+		<form action="#" method="get" enctype="multipart/form-data">
+
+	</div>
+		<div>
+			<p>Тег <strong>"input"</strong> служит для приёма данных от пользователя, Его атрибуты:</p>
+			<ul>
+				<li>Атрибут <strong>"type"</strong> определяет тип,есть несколько значений </li>
+				<ol> 
+					<li> Значение <strong>"text"</strong></li>
+					<input type="text" name="username" placeholder="username">
+					<li>Значение <strong>"tel"</strong></li>
+					<input type="tel" name="telefon" placeholder="telefon">
+					<li>Значение <strong>"email"</strong></li>
+					<input type="email" placeholder="Email">
+					<button type="submit">Send</button>
+					<li>Значение <strong>"password"</strong></li>
+					<input type="password" placeholder="password">
+					<li>Значение <strong>"radio"</strong> - это значение нужно для выбора ОДНОГО из многих, и их лучше компелировать под одним name</li>
+					<input  type="radio" name="choose"> choose 1<br>					
+					<input type="radio" name="choose"> choose 2
+					<li>Значение <strong>"checkbox"</strong> - это значение нужно для выбора нескольких</li>
+					<input type="checkbox" name="1"> want this<br>
+					<input type="checkbox" name="2"> this<br>
+					<input type="checkbox" name="3"> and this<br>
+					<li>Значение <strong>"file"</strong> - добавляет возможность прикрепить файл </li>
+					<input type="file"><button type="submit">Send</button>
+
+
+				</ol>  
+					<li>Атрибут <strong>"name"</strong> даёт наименование нашему input</li>
+					<li>Атрибут <strong>"value"</strong> - предназначен для вывода значения</li>
+					<li>Атрибут <strong>"placeholder"</strong> добавляет в поле подсказку, что вводить в это поле </li>
+			</ul>
+		</div>
+
+		<div>
+			Тег <strong>"textarea"</strong> - предназначен для ввода объемного текста<br>
+			<textarea name="text" id="" cols="30" rows="10"></textarea>
+		</div>
+		<p></p>
+		<div>
+			Теги <strong>"select"</strong> + <strong>"option</strong> используются вместе, для создания выпадающего списка<br>
+			<p>Who are you?</p>
+			<select name="who are you" id="">
+				<option value="1">NoOne</option>
+				<option value="2">TwoOne</option>
+				<option value="3">TreeOne</option>
+			</select><br>
+			<button type="reset">reset</button>
+		</div>
+		<div>
+			Тег <strong>"button"</strong> - добавляет на страницу кнопку.
+			У button есть определяющий атрипут <strong>"type"</strong> у котораго есть два значения:
+			<ul>
+				<li><strong>"submit</strong> - при нажатиия на кнопку все данные отправятся на сервер</li>
+				<li><strong>"reset"</strong> - при нажатии все поля и значения очистятся</li>
+			</ul>
+
+		</div>
+</form><hr>
+		<div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,828 @@
+@media only screen and (max-width:1400px){
+
+div.uslugi{
+	margin: 0px auto;
+	width: 1500px;
+	overflow: hidden;
+	height: 1600px;
+}
+
+div.usluga_1{
+	float: left;
+	height: 500px;
+	width: 40%;
+}
+div.image_usluga_1{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/EGWcG0UWwAAzskB.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_1{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_1{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.usluga_2{
+	float: left;
+	height: 500px;
+	width: 50%;
+}
+div.image_usluga_2{
+	width:200px ;
+	height:200px ;
+	background:url(../IMG/brashirovannyj-planken1.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_2{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_2{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.usluga_3{
+	float: inherit;
+	height: 500px;
+	width:85%;
+	margin-top: 600px;
+}
+div.image_usluga_3{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/1414668005.jpg);
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_3{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_3{
+	font-size: 20px;
+	margin:140px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1150px) {
+
+	div.text_main{
+		font-size: 30px;
+	}
+
+
+div.menu{
+	height: 100px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+	
+div.logo_menu{
+	float: left;
+	height: 35px;
+	width: 35px;
+}
+div.name_menu{
+	font-size: 15px;
+	margin-left:10%;
+	margin-top: 25px;
+}
+div.slogan_menu{
+	margin-top:5px ;
+	margin-left:10%;
+
+}
+
+
+
+
+
+
+
+
+
+div.navigation{
+	float: right;
+	width: 400px;
+	height: 100px;
+}
+div.punkt{
+	float: left;
+	margin:30px 10px;
+	font-size: 18px;	
+}
+
+
+
+
+
+
+
+
+
+div.about_us{
+	overflow: hidden;
+	height: 850px;
+}
+div.text{
+	height: 850px;
+	width: 50%;
+	float: right;
+}
+div.big_text{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 400px;
+	height: 100px;
+	color: black;
+	font-size: 20px;
+}
+div.small_text{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 300px;
+	height: 300px;
+	font-size: 20px;
+	font-family:oblique;
+
+}
+div.image_bed{
+	float: left;
+	width: 50%;
+	height: 850px;
+	background-image: url(../IMG/WHITE_LINEN_BED_LINEN.jpg);
+	max-width: 800px;
+}
+
+
+
+
+
+div.uslugi{
+	margin: 0px auto;
+	width: 1500px;
+	overflow: hidden;
+	height:inherit;
+}
+div.usluga_1{
+	float:left;
+	height: 500px;
+	width: 40%;
+}
+div.image_usluga_1{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/EGWcG0UWwAAzskB.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_1{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_1{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.usluga_2{
+	float:left;
+	height: 100px;
+	width: 33%;
+}
+div.image_usluga_2{
+	width:200px ;
+	height:200px ;
+	background:url(../IMG/brashirovannyj-planken1.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_2{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_2{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+
+
+div.usluga_3{
+	float: inherit;
+	height: 500px;
+	width: 75%;
+}
+div.image_usluga_3{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/1414668005.jpg);
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_3{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_3{
+	font-size: 20px;
+	margin:140px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+
+div.uslugi{
+	margin: 0px auto;
+	width: 1500px;
+	overflow: hidden;
+	height:inherit;
+}
+div.usluga_1{
+	float:inherit;
+	height: 500px;
+	width: 50%;
+}
+div.image_usluga_1{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/EGWcG0UWwAAzskB.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_1{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_1{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.usluga_2{
+	float:inherit;
+	height: 100px;
+	width: 50%;
+}
+div.image_usluga_2{
+	width:200px ;
+	height:200px ;
+	background:url(../IMG/brashirovannyj-planken1.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_2{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_2{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+
+
+div.usluga_3{
+	float: inherit;
+	height: 500px;
+	width:50%;
+}
+div.image_usluga_3{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/1414668005.jpg);
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_3{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_3{
+	font-size: 20px;
+	margin:140px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width:700px){
+	div.menu{
+	height: 300px;
+	overflow: hidden;
+}
+div.logo_menu{
+	float: inherit;
+	height: 35px;
+	width: 35px;
+	background: url(../IMG/1baa5308e4f084fb51f6e0bba671b52e.jpg);
+	margin-top: inherit;
+	margin-left: 45%;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.name_menu{
+	font-size: 17px;
+	margin-left:34%;
+	margin-top: 150px;
+}
+div.slogan_menu{
+	margin-top:5px ;
+	margin-left:35%;
+
+}
+
+
+
+
+
+
+div.navigation{
+	float: inherit;
+	width: 100%;
+	height: 0px;
+}
+div.punkt{
+	float: inherit;
+	margin:15px 40%;
+	font-size: 15px;
+
+
+}
+
+
+
+
+
+div.text_main{
+	color: black;
+
+}
+
+div.text_under_main{
+	color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+div.about_us{
+	overflow: hidden;
+	height: 850px;
+}
+div.text{
+	height: 850px;
+	width: 50%;
+	float: left
+	;
+}
+div.big_text{
+	margin-top: inherit;
+	margin-left:inherit;
+	margin:100px 40px;
+	width: 400px;
+	height: 100px;
+	color: black;
+	font-size: 40px;
+}
+div.small_text{
+	margin-top: 100px;
+	margin-left: 50px;
+	width: 400px;
+	height: 300px;
+	font-size: 20px;
+	font-family:oblique;
+
+}
+
+
+
+
+div.image_bed{
+	float: left;
+	width: 0px;
+	height: 850px;
+	background-image:inherit;
+	max-width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.uslugi{
+	margin: 0px auto;
+	width: 1500px;
+	overflow: hidden;
+	height: 1800px;
+}
+div.usluga_1{
+	float: inherit;
+	height: 500px;
+	width: 33%;
+}
+div.image_usluga_1{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/EGWcG0UWwAAzskB.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_1{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_1{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.usluga_2{
+	float: inherit;
+	height: 10px;
+	width: 33%;
+}
+div.image_usluga_2{
+	width:200px ;
+	height:200px ;
+	background:url(../IMG/brashirovannyj-planken1.jpg) center;
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_2{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_2{
+	font-size: 20px;
+	margin:100px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+
+
+div.usluga_3{
+	float: inherit;
+	height: 500px;
+	width: 33%;
+}
+div.image_usluga_3{
+	width:200px ;
+	height:200px ;
+	background: url(../IMG/1414668005.jpg);
+	margin:50px auto;
+	border-radius: 50%;
+	background-size: cover;
+}
+div.big_text_usluga_3{
+	width: 300px;
+	font-size:30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.small_text_usluga_3{
+	font-size: 20px;
+	margin:140px auto;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.primer_portfolio{
+	margin-top: 50px;
+	height: 1500px;
+}
+div.portfolio_1{
+	float: inherit;
+	height: 500px;
+	width: 33%;
+}
+div.image_portfolio_1{
+	margin:0px auto;
+	width: 500px;
+	height: 300px;
+	background: url(../IMG/0866.jpg);
+	background-size: cover;
+}
+div.text_portfolio_1{
+	width: 300px;
+	font-size:32px;
+	margin: 30px 50%;
+	text-align: center;
+}
+
+div.price_portfolio_1{
+	font-size: 22px;
+	margin:10px 50%;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+
+div.portfolio_2{
+	float: inherit;
+	height: 500px;
+	width: 33%;
+}
+div.image_portfolio_2{
+	margin:0px auto;
+	width: 500px;
+	height: 300px;
+	background:url(../IMG/shkaf_kupe_3_kh_dvernyy_loft_250_5007500060046_1.jpg);
+	background-size: cover;
+}
+div.text_portfolio_2{
+	width: 300px;
+	font-size:32px;
+	margin: 30px 50%;
+	text-align: center;
+}
+
+div.price_portfolio_2{
+	font-size: 22px;
+	margin:10px 50%;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+
+
+
+
+div.portfolio_3{
+	float: inherit;
+	height: 500px;
+	width: 33%;
+}
+
+div.image_portfolio_3{
+	margin:0px auto;
+	width: 500px;
+	height: 300px;
+	background: url(../IMG/sovremennaya-detskaya.jpg);
+	background-size: cover;
+}
+div.text_portfolio_3{
+	width: 300px;
+	font-size:32px;
+	margin: 30px 50%;
+	text-align: center;
+}
+
+div.price_portfolio_3{
+	font-size: 22px;
+	margin:10px 50%;
+	width: 300px;
+	text-align: center;
+	font-family: italic;
+}
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
